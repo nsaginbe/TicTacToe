@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="319.0" prefWidth="208.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tictactoe.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Button fx:id="Button1" layoutX="14.0" layoutY="125.0" onAction="#onButtonClick" prefHeight="60.0" prefWidth="60.0">
+      <font>
+         <Font size="28.0" />
+      </font></Button>
+    <Button fx:id="Button2" layoutX="74.0" layoutY="125.0" onAction="#onButtonClick" prefHeight="60.0" prefWidth="60.0">
+      <font>
+         <Font size="28.0" />
+      </font></Button>
+    <Button fx:id="Button3" layoutX="134.0" layoutY="125.0" onAction="#onButtonClick" prefHeight="60.0" prefWidth="60.0">
+      <font>
+         <Font size="28.0" />
+      </font></Button>
+    <Button fx:id="Button4" layoutX="14.0" layoutY="185.0" onAction="#onButtonClick" prefHeight="60.0" prefWidth="60.0">
+      <font>
+         <Font size="28.0" />
+      </font></Button>
+    <Button fx:id="Button5" layoutX="74.0" layoutY="185.0" onAction="#onButtonClick" prefHeight="60.0" prefWidth="60.0">
+      <font>
+         <Font size="28.0" />
+      </font></Button>
+    <Button fx:id="Button6" layoutX="134.0" layoutY="185.0" onAction="#onButtonClick" prefHeight="60.0" prefWidth="60.0">
+      <font>
+         <Font size="28.0" />
+      </font></Button>
+    <Button fx:id="Button7" layoutX="14.0" layoutY="245.0" onAction="#onButtonClick" prefHeight="60.0" prefWidth="60.0">
+      <font>
+         <Font size="28.0" />
+      </font></Button>
+    <Button fx:id="Button8" layoutX="74.0" layoutY="245.0" onAction="#onButtonClick" prefHeight="60.0" prefWidth="60.0">
+      <font>
+         <Font size="28.0" />
+      </font></Button>
+    <Button fx:id="Button9" layoutX="134.0" layoutY="245.0" onAction="#onButtonClick" prefHeight="60.0" prefWidth="60.0">
+      <font>
+         <Font size="28.0" />
+      </font></Button>
+   <Label fx:id="txt" alignment="CENTER" layoutX="54.0" layoutY="50.0" prefHeight="30.0" prefWidth="100.0" text="TicTacToe">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </Label>
+   <Button fx:id="restart" layoutX="72.0" layoutY="2.0" onAction="#onRestartClick" text="RESTART" />
+</Pane>
